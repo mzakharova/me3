@@ -46,6 +46,7 @@
 #cssmenu ul li,
 #cssmenu ul li a,
 #cssmenu #menu-button {
+  overflow: hidden;
   margin: 0;
   padding: 0;
   border: 0;
@@ -101,10 +102,12 @@
   float: right;
 }
 #cssmenu > ul > li > a {
+  overflow: hidden;
   padding: 12px;
   padding-left:17px;
   padding-bottom:5px;
- 
+  padding-top:150px;
+
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
@@ -139,6 +142,7 @@
   text-align: right;
 }
 #cssmenu ul ul li {
+  overflow: hidden;
   height: 0;
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -165,6 +169,7 @@
   margin-right: 100%;
 }
 #cssmenu ul ul li a {
+  overflow: hidden;
   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
   padding: 11px 15px;
   padding-top: 150px
